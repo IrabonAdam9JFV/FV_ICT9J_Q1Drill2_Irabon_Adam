@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            color: black;
+            background-color: white;
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/049/284/334/small/colorful-abstract-pattern-with-red-blue-yellow-green-and-purple-brush-strokes-on-a-white-background-creating-a-dynamic-and-playful-design-vector.jpg);
+        }
+        section{
+            background-color: rgb(246, 233, 233);
+            padding: 10px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 15px;
+            box-shadow: 0 2px 5px rgba(188, 166, 166, 0.1);
+        }
+          input[type="submit"], select, textarea {
+            width: 94%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+
+        }
+        img{
+            display: block;
+            margin: auto;
+            height: 100px;
+            width: 100px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RATE A MOVIE</h1>
+        <br>
+        <p>Say something about the content</p>
+    </header>
+
+    <section>
+        <form action="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTGZHfuN2pA5MvCnTfDCIPP9jmzL_f3quTD-oInAbWzyt1po5bVfY-b7k&s=10" alt="movie logo">
+            <label for="movies">Select a Movie</label>
+                 <select id="movies">
+                    <option value="m1">Avengers: Infinity War</option>
+                    <option value="m2">Avengers:Endgame</option>
+                    <option value="m3">Guardians of The Galaxy 3</option>
+                    <option value="m4">Spiderman: Brand New Day</option>
+                 </select>
+                 <br>
+            <label for="genre">Genre/s</label>
+            <br>
+            <input type="checkbox" id="genre1" name="genre1">
+                <label for="genre1">Action</label>
+               <input type="checkbox" id="genre2" name="genre2">
+                <label for="genre2">Sci-Fi</label>
+                <br>
+               <input type="checkbox" id="genre3" name="genre3">
+                <label for="genre3">Comedy</label>
+                <br>
+               <input type="checkbox" id="genre4" name="genre4">
+                <label for="genre4">Fiction</label>
+                <br>
+               <input type="checkbox" id="genre5" name="genre5">
+                <label for="genre5">Other</label>
+                <br>
+                <br>
+                  <label for="rate">Rating</label>
+            <br>
+            <input type="radio" id="rate1" name="rating">
+                <label for="rate1">⭐</label>
+            <input type="radio" id="rate2" name="rating">
+                <label for="rate2">⭐⭐</label>
+            <input type="radio" id="rate3" name="rating">
+                <label for="rate3">⭐⭐⭐</label>
+            <input type="radio" id="rate4" name="rating">
+                <label for="rate4">⭐⭐⭐⭐</label>
+            <input type="radio" id="rate5" name="rating">
+                <label for="rate5">⭐⭐⭐⭐⭐</label>
+                <br><br>
+                <textarea id="review" name="review" rows="4" cols="40" placeholder="Movie Review"></textarea>
+                <br>
+                <input type="submit" id="submit" name="submit" value="Submit Review">
+                <br>
+                For movie review tips <a href="https://www.rottentomatoes.com/" target="_blank"> click here</a>
+        </form>
+    </section>
+    <!-- ---->
+    <!--Reference
+</body>
+</html>
